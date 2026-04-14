@@ -1,0 +1,25 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.skill-card {
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card {
+    background: #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    background: #374151;
+}
